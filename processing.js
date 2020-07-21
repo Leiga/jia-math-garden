@@ -80,8 +80,8 @@ function predictImage() {
 
     //testing only (delete later)
     const outputCanvas = document.createElement('CANVAS');
-    cv.imshow(outputCanvas, image);
-    document.body.appendChild(outputCanvas);
+    //cv.imshow(outputCanvas, image);
+    //document.body.appendChild(outputCanvas);
 
     //clean up
     image.delete();
